@@ -1,3 +1,9 @@
+# Challenge Mercado Libre
+
+## Author
+
+- [@exedemaio](https://www.github.com/exedemaio)
+
 ## Run Locally
 
 Clone the project
@@ -40,7 +46,7 @@ Start the client
 
 Create .env in the root of the server folder
 
-```
+```bash
 PORT=xxxx
 MERCADOLIBRE_API_URL=xxxx
 AUTHOR_NAME=xxxx
