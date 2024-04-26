@@ -1,0 +1,41 @@
+.card__container {
+  display: grid;
+  grid-template-columns: 180px auto 200px;
+  grid-column-gap: 16px;
+  cursor: pointer;
+  padding: 16px 0 16px 16px;
+}
+
+.card__image {
+  border-radius: 4px;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0;
+}
+
+.card__content_price {
+  font-size: 24px;
+  color: var(--gray-4);
+  padding-bottom: 32px;
+  display: inline-block;
+}
+
+.card__price_decimal {
+  font-size: 16px;
+  font-weight: 300;
+  vertical-align: top;
+}
+
+.card__title {
+  font-size: 18px;
+  color: var(--gray-4);
+}
+
+.card__location {
+  font-size: 12px;
+  color: var(--gray-2);
+  padding: 16px 0;
+}

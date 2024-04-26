@@ -1,0 +1,15 @@
+.breadcrumb__container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 0;
+}
+
+.breadcrumb__item {
+  color: var(--gray-2);
+  font-size: 14px;
+}
+
+.breadcrumb__item:last-child {
+  font-weight: bold;
+}
